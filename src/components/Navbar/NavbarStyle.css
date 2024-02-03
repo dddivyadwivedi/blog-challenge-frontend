@@ -1,0 +1,24 @@
+.NavBar {
+    margin-bottom: 85px;
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .navbar-expand-lg {
+        justify-content: space-between;
+    }
+
+    .navbar {
+        padding-left: 3%;
+        padding-right: 3%;
+        height: 85px;
+        transition: top 0.5s ease 0s;
+        position: fixed;
+        background: var(--white);
+        width: 100%;
+        top: 0;
+        z-index: 1050;
+        box-shadow: 0px 11px 25px 9px rgba(0, 0, 0, 0.1);
+    }
+}

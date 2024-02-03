@@ -1,0 +1,67 @@
+#blog-post {
+    
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .post-content {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+  .header {
+    font-size: 20px;
+    color: teal;
+    margin-bottom: 20px;
+  }
+  
+  .post-content h2 {
+    margin-bottom: 10px;
+  }
+  .add-comment-section{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .add-comment-section textarea {
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    
+    padding: 0px 10px;
+    border: none;
+    width: 30%;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+  }
+  
+ 
+  
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .comment-section {
+    margin-top: 20px;
+  }
+  
+  .comment-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .comment {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    text-align: left;
+  }
+  

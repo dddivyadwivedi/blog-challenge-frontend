@@ -1,0 +1,23 @@
+#managepost {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    width: 40%;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+  }
+
+  .header {
+    font-size: 20px;
+    color: teal;
+    margin-bottom: 20px;
+  }
+  .showCurrentImage{
+    font-size: 16px;
+  }
